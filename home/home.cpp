@@ -59,7 +59,7 @@ int main()
 	{
 		for (int j = 0; j < 4; j++)	
 		{
-			cout << "Input nuber:";
+			ccout << "Input nuber:";
 			cin >> matrix_1[i][j];
 			check_value();
 		}
@@ -70,6 +70,7 @@ int main()
 	{
 		for (int j = 0; j < 4; j++)
 		{
+			cout << "Input nuber:";
 			cin >> matrix_2[i][j];
 			check_value();
 		}

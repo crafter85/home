@@ -21,6 +21,7 @@ void replase_matrix_1(int  matrix_1[4][4])
 		for (int j = 0; j < 4; j++)
 		{
 			if (i != j)
+
 			{
 				matrix_1[i][j] = 0;
 			}
@@ -83,27 +84,5 @@ int main()
 	{
 		cout << " Matrix is equal. ";
 	}
-
-	//bool check_matrixs = true;
-	//for (int i = 0; i < 4; i++)
-	//{
-		//for (int j = 0; j < 4; j++)
-		//{
-			//if (matrix_1[i][j] != matrix_2[i][j])
-		//{
-			//	check_matrixs = false;
-			//}
-		//}
-	//}
-	//if (check_matrixs)
-	//{
-		//cout << "Matrixs is equal.\n";
-		//replase_matrix_1(matrix_1);
-		//print_matrix_1(matrix_1);
-	//}
-	//else
-	//{
-	//	cout << "Matrixs is not equal.";
-	//}
 	return 0;
 }
